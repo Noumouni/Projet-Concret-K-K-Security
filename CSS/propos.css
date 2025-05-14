@@ -173,6 +173,7 @@ h2{
     margin-bottom: 20px;
     color:#274c81;
     font-size: 32px;
+    margin-left: 20px;
 
 }
 
@@ -236,7 +237,7 @@ aside img {
     margin: 0 auto;
     gap: 40px;
     align-items: flex-start;
-    font-size: 1.1rem;
+
   }
   
   .footer-left {
