@@ -8,6 +8,8 @@ html {
   }
 body{
     font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    max-width: 1440px;
 }
 .top-banner{
     width: 100%;
@@ -53,7 +55,6 @@ header{
  .nav-menu .nav-links {
      text-decoration: none;
      color: black;
-     font-size:16px;
      padding: 20px;
      margin-right: 70px;
      font-weight: 500;
@@ -73,7 +74,6 @@ header{
    position: relative;
    text-decoration: none;
    color: #333;
-   font-size: 16px;
    padding: 5px 0;
  }
  
@@ -133,15 +133,7 @@ header{
 .nav-menu{
     margin-bottom: 35px
 }
-.nav-menu .nav-links {
-    text-decoration: none;
-    color: black;
-    font-size:16px;
-    padding: 20px;
-    margin-right: 70px;
-    font-weight: 500;
 
-}
 .btn-menu{
     background:#3871C1 ;
     border-radius: 5px;
@@ -158,11 +150,7 @@ h1{
     margin-bottom: 20px;
     margin-top: 25px;
 }
-p{
-  padding: 20px;
-  letter-spacing: normal;
-  font-size: 1.1rem;
-}
+
 .mission{
     color: #274c81;
     font-weight: 700;
@@ -179,11 +167,9 @@ h2{
 
 .row{
 
- 
   display: flex;
   flex-direction: row;
-  
-  
+   
 }
 
 .row ul {
@@ -202,9 +188,8 @@ padding: 15px;
   color: #274c81;
   font-weight: 700;
  
-  font-size: 20px;
-  font-size: 1.1rem;
 }
+
 aside{
   display: grid;
   grid-template-columns: repeat(2 , 1fr);
@@ -285,7 +270,6 @@ aside img {
   
   .footer-column h3 {
     margin-bottom: 10px;
-    font-size: 1.1rem;
     font-weight: bold;
   }
   
