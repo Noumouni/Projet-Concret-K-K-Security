@@ -8,6 +8,7 @@
     }
   body{
       font-family: "Montserrat", sans-serif;
+      font-size: 14px;
   }
   .top-banner{
       width: 100%;
@@ -170,10 +171,6 @@
 
   }
 
-  
-  
-
-
 main {
   padding: 2rem;
   max-width: 1200px;
@@ -224,7 +221,7 @@ form div {
 label {
   display: block;
   margin-bottom: 0.5rem;
-  font-weight: bold;
+ 
 }
 
 input[type="text"],
