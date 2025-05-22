@@ -94,34 +94,6 @@ header{
  .nav-links:hover::after {
    transform: scaleX(1);
  }
- .dropdown {
-   position: relative;
- }
- 
- .dropdown-content {
-   position: absolute;
-   top: 100%;
-   left: 0;
-   background: white;
-   padding: 0.5rem 1rem;
-   box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-   border-radius: 6px;
-   opacity: 0;
-   transform: translateY(10px);
-   pointer-events: none;
-   transition: opacity 0.3s ease, transform 0.3s ease;
-   z-index: 100;
-   display: flex;
-   flex-direction: column;
- }
- 
- .dropdown:hover .dropdown-content {
-   opacity: 1;
-   transform: translateY(0);
-   pointer-events: auto;
- }
- 
- 
  
 
 
@@ -143,66 +115,6 @@ header{
 
 
 }
-h1{
-    text-align: center;
-    font-size: 30px;
-    color: #274c81;
-    margin-bottom: 20px;
-    margin-top: 25px;
-}
-
-.mission{
-    color: #274c81;
-    font-weight: 700;
-    font-size: 1.1rem;
-}
-h2{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    color:#274c81;
-    font-size: 32px;
-    margin-left: 20px;
-
-}
-
-.row{
-
-  display: flex;
-  flex-direction: row;
-   
-}
-
-.row ul {
-
-list-style: none;
-font-weight: 500;
-}
-
-.row ul li {
-padding: 15px;
-}
-
-.why p {
-
-  color: #274c81;
-  font-weight: 700;
- 
-}
-
-aside{
-  display: grid;
-  grid-template-columns: repeat(2 , 1fr);
-gap: 30px;
-margin-left: 80px;
-flex: 1;
-}
-aside img {
-  object-fit: cover;
-  width: 200px;
-  height: 200px;
-  border-radius: 2px;
-}
-
 
 
 

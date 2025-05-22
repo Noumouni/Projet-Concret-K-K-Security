@@ -21,6 +21,18 @@ body{
    align-items: center;
    gap: 100px;
 }
+
+.top-banner{
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #ccc;
+}
+.icone{
+  display: flex;
+  gap: 100px;  
+}
 .logo-img{
     width: 200px;
     height: auto;
@@ -106,23 +118,23 @@ header {
   background: white;
   padding: 0.5rem 1rem;
   box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-  border-radius: 6px;
+  border-radius: 7px;
   opacity: 0;
-  transform: translateY(10px);
   pointer-events: none;
-  transition: opacity 0.3s ease, transform 0.3s ease;
   z-index: 100;
   display: flex;
   flex-direction: column;
+  transform: translateY(10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  
 }
 
 .dropdown:hover .dropdown-content {
   opacity: 1;
   transform: translateY(0);
   pointer-events: auto;
+ 
 }
-
-
 
 
 .btn-menu{
@@ -344,9 +356,9 @@ padding: 30px;
 
 .button-devis-b{
   display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
   
   
 }
@@ -354,91 +366,88 @@ padding: 30px;
 .button-devis-b a{
   color: white ;
   text-decoration: none;
-  background-color: #1F2A44;
   padding: 20px;
-  border-radius: 7px;
+  background: linear-gradient(to bottom, #3871c1, #274c81);
+   border-radius: 7px;
+    margin-bottom: 20px;
 
 }
 
+
+
+
 .footer {
-  background-color:#1F2A44;
-  color: #fff;
-  padding: 40px 30px;
-  font-family: sans-serif;
+  background: #274c81;
+  padding: 30px;
+  color: white;
+  font-family: Arial, sans-serif;
 }
 
 .footer-content {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
-  max-width: 1200px;
-  margin: 0 auto;
-  gap: 40px;
-  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
+.icone-footer{
+  display: flex;
+  gap: 100px;
+  margin-right: 200px;
+  margin-top: 20px;
+}
 .footer-left {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-row {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-logo {
+  height: 200px;
+  width: auto;
+}
+
+.footer-brand {
+  text-align: center;
+  margin-top: 10px;
+  margin-right: 200px;
+}
+
+
+
+.footer-right {
+  flex: 2;
+  min-width: 300px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.footer-column {
   flex: 1;
   min-width: 200px;
 }
 
-.footer-logo-brand {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.footer-logo {
-  width: 60px;
-  height: auto;
-  margin-bottom: 10px;
-}
-
-.footer-brand h2 {
-  margin: 0;
-  font-size: 1.4rem;
-  font-weight: bold;
-}
-
-.footer-brand p {
-  margin-top: 5px;
-  font-style: italic;
-  font-size: 0.95rem;
-}
-
-.footer-right {
-  display: flex;
-  flex: 3;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 40px;
-}
-
-.footer-column {
-  min-width: 220px;
-  flex: 1;
-}
-
 .footer-column h3 {
   margin-bottom: 10px;
-  font-size: 1.1rem;
-  font-weight: bold;
- 
-}
-
-.footer-column p {
-  margin: 5px 0;
-  line-height: 1.5;
+  color: white;
 }
 
 .footer-legal {
+  font-size: 0.9rem;
+  color: #666;
   margin-top: 10px;
-  font-size: 0.85rem;
-  font-style: italic;
+  color: white;
 }
-
-/*****Animations*****/
-
 
 
 

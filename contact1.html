@@ -45,61 +45,64 @@
       <a href="a-propos.html" class="nav-links"> Qui somme nous ?</a>
       <a href="index.HTML" class="nav-links">Accueil</a>
      
-      <div class="dropdown">
         <a href="#" class="nav-links">Nos Services</a>
-        <div class="dropdown-content">
-          <a href="service1.html" class="nav-links">Sécurité et Surveillance</a>
-          <a href="service2.html" class="nav-links">Entretien et Nettoyage</a>
-          <a href="service2.html" class="nav-links">Contact</a>
-        </div>
-      </div>
       <a href="contact2.html" class="nav-links">Postuler chez nous</a>
       <a href="contact1.html" class="btn-menu"> Démandez un dévis <i class="fa-solid fa-arrow-right"></i></a>
     </nav >
   </header>
- <main>
-  <h1>Obtenez Un Devis</h1>
-  <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-    Aut, in non id odio explicabo perspiciatis quasi deserunt?</P>
-
+  <main>
+    <h1>Obtenez Un Devis</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Aut, in non id odio explicabo perspiciatis quasi deserunt?</p>
+  
     <div class="container">
       <div class="left">
-        <h2>Nos Coordonnés</h2>
+        <h2>Nos Coordonnées</h2>
         <address>19 avenue d'Italie 75013 Paris</address>
-        <a href="">groskksecurite@gmail.com</a> <br>
+        <a href="">groskksecurite@gmail.com</a><br>
         <a href="">Kkentretien@gmail.com</a>
-        <p class="phone "> Tél. : +33 6 99 78 77 58</p>
-        <p class="phone">Tél. : +33 6 18 15 61 55 </p>
-        
-        
-<iframe src="https://www.google.com/maps/embed?pb=!4v1747262236627!6m8!1m7!1shmt_UM6cLpD-RV932eR_Qw!2m2!1d48.82896938055551!2d2.356423041631485!3f65.026634!4f0!5f0.7820865974627469"
- width="500" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <p class="phone">Tél. : +33 6 99 78 77 58</p>
+        <p class="phone">Tél. : +33 6 18 15 61 55</p>
+  
+        <iframe src="https://www.google.com/maps/embed?pb=!4v1747262236627!6m8!1m7!1shmt_UM6cLpD-RV932eR_Qw!2m2!1d48.82896938055551!2d2.356423041631485!3f65.026634!4f0!5f0.7820865974627469"
+          width="500" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
-
+  
       <div class="right">
         <h2>Nous envoyer un Email</h2>
         <form action="contact1.html">
-          <div>
-            <label for="firsrtname"> Votre prénom</label>
-            <input type="text" required id="firsrtname" name="firsrtname" required>
+          <div class="row">
+            <div class="form-group">
+              <label for="firstname">Votre prénom</label>
+              <input type="text" required id="firstname" name="firstname">
+            </div>
+            <div class="form-group">
+              <label for="lastname">Votre nom</label>
+              <input type="text" required id="lastname" name="lastname">
+            </div>
           </div>
-
-          <div>
-            <label for="firsrtname"> Votre nom</label>
-            <input type="text" required id="lastname" name="lastname" required>
+  
+          <div class="form-group">
+            <label for="email">Votre email</label>
+            <input type="email" required id="email" name="email" placeholder="votre@email.com">
           </div>
-          <div>
-            <label for="email">votre email  </label>
-            <textarea required id="message" name="message" required placeholder="Votre@email.com" ></textarea>
+  
+          <div class="form-group radio-group">
+            <label><input type="radio" name="service" value="securite" required> Service Sécurité</label>
+            <label><input type="radio" name="service" value="nettoyage"> Service Nettoyage</label>
           </div>
-          <button type="submit">Send message</button>
-
+  
+          <div class="form-group">
+            <label for="message">Description</label>
+            <textarea id="message" name="message" placeholder="Décrivez les services souhaités..." required></textarea>
+          </div>
+  
+          <button type="submit">Soumettre</button>
         </form>
-
       </div>
     </div>
- </main>
-
+  </main>
+  
 
   
 
